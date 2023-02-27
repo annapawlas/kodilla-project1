@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="50.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kodilla.project.controllers.MenuController">
+    <padding>
+        <Insets bottom="75.0" left="175.0" right="175.0" top="75.0" />
+    </padding>
+    <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openTicTacToeGame" prefHeight="30.0" prefWidth="150.0" text="Classic Tic Tac Toe" />
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#openFiveInRowGame" prefHeight="30.0" prefWidth="150.0" text="Five In Row" />
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#backMenu" prefHeight="30.0" prefWidth="150.0" text="Back to Menu" />
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="150.0" text="Exit" />
+</VBox>
